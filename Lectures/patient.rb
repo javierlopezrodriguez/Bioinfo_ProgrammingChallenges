@@ -1,4 +1,4 @@
-class Patient
+class Patient2
 
   attr_accessor :name  # create an "attribute accessor" (read and write) for "name"
   
