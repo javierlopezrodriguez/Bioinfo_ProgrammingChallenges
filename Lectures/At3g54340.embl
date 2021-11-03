@@ -4,10 +4,10 @@ AC   chromosome:TAIR10:3:20119140:20121314:1
 XX
 SV   chromosome:TAIR10:3:20119140:20121314:1
 XX
-DT   15-JUL-2020
+DT   3-NOV-2021
 XX
 DE   Arabidopsis thaliana chromosome 3 TAIR10 partial sequence
-DE   20119140..20121314 annotated by The Arabidopsis Information Resource
+DE   20119140..20121314 annotated by Araport11
 XX
 KW   .
 XX
@@ -17,9 +17,8 @@ OC   Spermatophyta; Magnoliophyta; eudicotyledons; core eudicots; rosids;
 OC   eurosids II; Brassicales; Brassicaceae; Arabidopsis.
 XX
 CC   This sequence displays annotation from Ensembl Genomes, based on underlying
-CC   annotation from The Arabidopsis Information Resource (
-CC   https://www.araport.org/ ). See http://www.ensemblgenomes.org for more
-CC   information.
+CC   annotation from Araport11 ( https://araport.org ). See
+CC   http://www.ensemblgenomes.org for more information.
 XX
 CC   All feature locations are relative to the first (5') base of the sequence
 CC   in this file.  The sequence presented is always the forward strand of the
@@ -65,7 +64,8 @@ FT                   /db_xref="EMBL:M86357"
 FT                   /db_xref="GO:0000976"
 FT                   /db_xref="GO:0000977"
 FT                   /db_xref="GO:0000977"
-FT                   /db_xref="GO:0000977"
+FT                   /db_xref="GO:0000978"
+FT                   /db_xref="GO:0000981"
 FT                   /db_xref="GO:0000981"
 FT                   /db_xref="GO:0003677"
 FT                   /db_xref="GO:0003677"
@@ -77,11 +77,9 @@ FT                   /db_xref="GO:0005634"
 FT                   /db_xref="GO:0005634"
 FT                   /db_xref="GO:0005634"
 FT                   /db_xref="GO:0005634"
-FT                   /db_xref="GO:0005634"
-FT                   /db_xref="GO:0006351"
 FT                   /db_xref="GO:0006355"
 FT                   /db_xref="GO:0006355"
-FT                   /db_xref="GO:0007275"
+FT                   /db_xref="GO:0006357"
 FT                   /db_xref="GO:0007275"
 FT                   /db_xref="GO:0008134"
 FT                   /db_xref="GO:0009908"
@@ -90,7 +88,6 @@ FT                   /db_xref="GO:0010093"
 FT                   /db_xref="GO:0030154"
 FT                   /db_xref="GO:0030154"
 FT                   /db_xref="GO:0043565"
-FT                   /db_xref="GO:0044212"
 FT                   /db_xref="GO:0045944"
 FT                   /db_xref="GO:0045944"
 FT                   /db_xref="GO:0046983"
@@ -115,8 +112,10 @@ FT                   /db_xref="protein_id:AAD51902.1"
 FT                   /db_xref="protein_id:AAD51903.1"
 FT                   /db_xref="protein_id:AEE79216.1"
 FT                   /db_xref="protein_id:BAA04665.1"
+FT                   /db_xref="protein_id:CAA0386332.1"
 FT                   /db_xref="protein_id:CAB81799.1"
 FT                   /db_xref="protein_id:OAP05456.1"
+FT                   /db_xref="protein_id:VYS60370.1"
 FT                   /db_xref="TAIR_TRANSLATION:AT3G54340"
 FT                   /db_xref="PO:PO:0000037"
 FT                   /db_xref="PO:PO:0000229"
@@ -144,20 +143,20 @@ FT                   IMFSSSNKLHEYISPNTTTKEIVDLYQTISDVDVWATQYERMQETKRKLLETNRNLRTQ
 FT                   IKQRLGECLDELDIQELRRLEDEMENTFKLVRERKFKSLGNQIETTKKKNKSQQDIQKN
 FT                   LIHELELRAEDPHYGLVDNGGDYDSVLGYQIEGSRAYALRFHQNHHHYYPNHGLHAPSA
 FT                   SDIITFHLLE"
+FT   exon            complement(1050..1091)
+FT                   /note="exon_id=AT3G54340.1.exon5"
 FT   exon            complement(1593..1659)
 FT                   /note="exon_id=AT3G54340.1.exon2"
-FT   exon            complement(1761..2175)
-FT                   /note="exon_id=AT3G54340.1.exon1"
 FT   exon            complement(729..773)
 FT                   /note="exon_id=AT3G54340.1.exon6"
 FT   exon            complement(1..483)
 FT                   /note="exon_id=AT3G54340.1.exon7"
 FT   exon            complement(1264..1363)
 FT                   /note="exon_id=AT3G54340.1.exon4"
+FT   exon            complement(1761..2175)
+FT                   /note="exon_id=AT3G54340.1.exon1"
 FT   exon            complement(1448..1509)
 FT                   /note="exon_id=AT3G54340.1.exon3"
-FT   exon            complement(1050..1091)
-FT                   /note="exon_id=AT3G54340.1.exon5"
 FT   mRNA            join(complement(AL132971.2:19369..19757),
 FT                   complement(AL132971.2:19047..19281),
 FT                   complement(AL132971.2:18782..18927),
@@ -558,6 +557,15 @@ FT                   consensus"
 FT   repeat_region   complement(1558..1591)
 FT                   /note="dust repeat: matches 20120697..20120730(1) of
 FT                   consensus"
+FT   repeat_region   1779..1900
+FT                   /note="RLG_Gmr139_Gm11-1:SoyBaseTE repeat: matches
+FT                   15409..15530(1) of consensus"
+FT   repeat_region   1803..1916
+FT                   /note="AT2TE45640:TAIR10_TE repeat: matches 1209..1322(1)
+FT                   of consensus"
+FT   repeat_region   complement(1917..1936)
+FT                   /note="PHG_TEdenovo-B-R1514-Map5:repetDB.Mar2020 repeat:
+FT                   matches 2298..2431(1) of consensus"
 FT   repeat_region   complement(1979..2063)
 FT                   /note="dust repeat: matches 20121118..20121202(1) of
 FT                   consensus"
